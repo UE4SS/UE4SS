@@ -3,11 +3,12 @@ Unreal Engine 4 Scripting System
 Targeting UE Versions: From 4.12 To 5.0
 ---
 Launching UE4SS:
+Quick-launch: Put all files & folders in the same directory as the "<GameName>-Win64-Shipping.exe" file and inject ue4ss.dll.
+Otherwise:
 Put files anywhere.
 Update paths & executable name in UE4SS-settings.ini.
 Launch your game.
 Inject ue4ss.dll with the injector of your choice after the game has loaded all the way to the main menu.
-Quick-launch: Put all files & folders in the same directory as the "<GameName>-Win64-Shipping.exe" file and inject ue4ss.dll.
 ---
 Fixing compatibility problems:
 If the DLL was unable to find some offsets then you can manually provide the missing offsets in UE4SS-settings.ini.
