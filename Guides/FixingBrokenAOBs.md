@@ -23,13 +23,13 @@ A `working directory` is either the directory that contains `ue4ss.dll` OR a gam
 5. The `Register` function must return the AOB that you want UE4SS to scan for.
     - The format is `N N/N N/N N` where `N` means `Nibble`.
     - An example of an AOB in Cheat Engine format: `8B 51 04 85`.
-    - An example of an AOB in UE4SS format: `5 1/5 1/0 4/8 5`.
+    - An example of an AOB in UE4SS format: `8 B/5 1/0 4/8 5`.
     - The AOB scanner supports wildcards for either nibble or the entire byte.
 6. Next you need to create a global `OnMatchFound` function.
     - This function has one param, `MatchAddress`, and this is the address of the match.
     - It's in this function that you'll place all your logic for calculating the final address.
     - The most simple way to do this is to make sure that your AOB leads directly to the start of the final address. That way you can simply return `MatchAddress`.
-    - In the event that you're doing something more advanced (e.g. indirect aob scan), UE4SS makes available two global functions, `DerefToInt32` which takes an address and returns as a 32-bit integer whatever data is located there OR `nil` if the address could not be dereferenced, and `print` for debugging purposes.
+    - In the event that you're doing something more advanced (e.g. indirect aob scan), UE4SS makes available two global functions, `DerefToInt32` which takes an address and returns a 32-bit integer whatever data is located there OR `nil` if the address could not be dereferenced, and `print` for debugging purposes.
 
 ## Example script (Simple, direct scan)
 
