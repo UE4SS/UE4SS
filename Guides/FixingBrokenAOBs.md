@@ -27,7 +27,7 @@ A `working directory` is either the directory that contains `ue4ss.dll` OR a gam
     - The AOB scanner supports wildcards for either nibble or the entire byte.
 6. Next you need to create a global `OnMatchFound` function.
     - This function has one param, `MatchAddress`, and this is the address of the match.
-    - It's in this function that you'll place all your logic for calculating the exact address to the final address.
+    - It's in this function that you'll place all your logic for calculating the final address.
     - The most simple way to do this is to make sure that your AOB leads directly to the start of the final address. That way you can simply return `MatchAddress`.
     - In the event that you're doing something more advanced (e.g. indirect aob scan), UE4SS makes available two global functions, `DerefToInt32` which takes an address and returns as a 32-bit integer whatever data is located there OR `nil` if the address could not be dereferenced, and `print` for debugging purposes.
 
