@@ -10,7 +10,7 @@ A `working directory` is either the directory that contains `ue4ss.dll` OR a gam
 
 1. Create the directory `UE4SS_Signatures` if it doesn't already exist in your `working directory`.
 2. Identify which AOBs are broken and needs fixing.
-3. Make the following files, depending on which AOBs are broken:
+3. Make the following files inside `UE4SS_Signatures`, depending on which AOBs are broken:
     - GUObjectArray.lua
     - StaticFindObject.lua
     - FName_ToString.lua
