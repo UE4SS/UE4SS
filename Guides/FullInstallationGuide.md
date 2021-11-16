@@ -23,7 +23,7 @@ You can install UE4SS in a couple of different ways.
 
 ### Method #1
 
-The prefered way to install UE4SS is to extract the zip file in any directory _outside_ the `game directory`, this is what's known as the `root directory`.  
+The preferred way to install UE4SS is to extract the zip file in any directory _outside_ the `game directory`, this is what's known as the `root directory`.  
 You will then create a folder inside with the name of your game and drag `UE4SS-settings.ini` in to it, this is what's known as the `working directory`.
 
 If the path to your game executable is
@@ -60,7 +60,7 @@ Now all you need to do is start your game and point your injector of choice to `
 
 ## Last but not least...
 
-The prefered way to install UE4SS is method #1 because it will allow you to collect all your UE4SS related stuff in the same place for easy access and it will also allow you to use the same dll for all games.
+The preferred way to install UE4SS is method #1 because it will allow you to collect all your UE4SS related stuff in the same place for easy access and it will also allow you to use the same dll for all games.
 
 If you keep a copy of `UE4SS-settings.ini` inside the `root directory` then this file will act as a default for all the games that don't have a `working directory` as long as you still point your injector to the `root directory`.  
 This way you can use method #2 for most of your games and at the same time you can use method #1 for other games if method #2 is problematic for you.
