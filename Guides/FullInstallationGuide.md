@@ -12,11 +12,7 @@ There are three concepts you need to know about.
     - This directory contains the executable file for your game and is not part of the UE4SS directory structure.
     - This directory also contains `UE4SS.log` and `UE4SS-ObjectDump.txt`.
 
----
-
 ## Choosing an installation directory
-
----
 
 You can install UE4SS in a couple of different ways.
 
