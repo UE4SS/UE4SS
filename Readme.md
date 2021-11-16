@@ -13,6 +13,9 @@
   - Launch your game.
   - Inject ue4ss.dll with the injector of your choice after the game has loaded all the way to the main menu.
 
+## Links
+---
+### [Full installation guide](https://github.com/UE4SS/UE4SS/blob/master/Guides/FullInstallationGuide.md)
 ### [Fixing compatibility problems](https://github.com/UE4SS/UE4SS/blob/master/Guides/FixingBrokenAOBs.md)
 
 ---
