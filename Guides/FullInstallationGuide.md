@@ -10,6 +10,7 @@ There are three concepts you need to know about.
     - This directory contains configuration and mod files and is located inside the `root directory`.
 3. The `game executable directory`.
     - This directory contains the executable file for your game and is not part of the UE4SS directory structure.
+    - This directory also contains `UE4SS.log` and `UE4SS-ObjectDump.txt`.
 
 ---
 
@@ -25,7 +26,8 @@ The prefered way to install UE4SS is to extract the zip file in any directory _o
 You will then create a folder inside with the name of your game and drag `UE4SS-settings.ini` in to it, this is what's known as the `working directory`.
 
 If the path to your game executable is
-```
+
+```md
 D:\Games\Epic Games\SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\FactoryGame-Win64-Shipping.exe
 ```
 
