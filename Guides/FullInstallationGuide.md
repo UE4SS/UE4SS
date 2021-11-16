@@ -1,3 +1,6 @@
+⚠ This guide is for UE4SS 1.1+, it is not compatible with UE4SS 1.0.  
+You will have to wait until 1.1 comes out to make use of this guide.
+
 # Full installation guide
 
 ## Core structure concept
@@ -35,14 +38,14 @@ D:\Games\Epic Games\SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\FactoryGa
 Then the name of your `working directory` should be `SatisfactoryEarlyAccess`.  
 This directory will be automatically found and used by UE4SS if it exists.
 
-As of UE4SS 1.0, the following files & folders exist inside the `working directory`:
+As of UE4SS 1.1, the following files & folders exist inside the `working directory`:
 
 - Mods
   - Mod folders
   - mods.txt
 - UE4SS-settings.ini
-
-Moving `UE4SS-ObjectDump.txt` to the `working directory` in 1.1 is being considered, this guide will be updated to reflect that when and if the change is made.
+- UE4SS.log
+- UE4SS-ObjectDump.txt
 
 Now all you need to do is start your game and point your injector of choice to `<root directory>/ue4ss.dll`.
 
