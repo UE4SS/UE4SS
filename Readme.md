@@ -2,8 +2,6 @@
 
 ## Targeting UE Versions: From 4.12 To 5.0
 
----
-
 ### Launching UE4SS
 
 - Quick-launch: Put all files & folders in the same directory as the "\<GameName>-Win64-Shipping.exe" file and inject ue4ss.dll.
@@ -14,11 +12,8 @@
   - Inject ue4ss.dll with the injector of your choice after the game has loaded all the way to the main menu.
 
 ## Links
----
 ### [Full installation guide](https://github.com/UE4SS/UE4SS/blob/master/Guides/FullInstallationGuide.md)
 ### [Fixing compatibility problems](https://github.com/UE4SS/UE4SS/blob/master/Guides/FixingBrokenAOBs.md)
-
----
 
 ## Credits
 
@@ -35,8 +30,6 @@
     - CheatingMuppet: Nibblet support
 - **boop** / **usize**
   - New UFunction hook method
-
----
 
 ## Thanks to everyone who helped with testing
 
