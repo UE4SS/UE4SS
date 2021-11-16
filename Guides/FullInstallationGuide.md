@@ -9,10 +9,11 @@ There are four concepts you need to know about.
 2. The `working directory`.
     - This directory contains configuration and mod files and is located inside the `root directory`.
 3. The `game directory`.
-    - This directory usually contains a small executable with the name of your game and a folder with the same name.
+    - This directory usually contains a small executable with the name of your game and a folder with the same name.  
+      This executable is _not_ your actual game but instead it's just a small wrapper that starts any 3rd party launcher such as Steam or if there is none then it launches the real executable.
     - Example of a full `game directory`: `D:\Games\Epic Games\SatisfactoryEarlyAccess\`
 4. The `game executable directory`.
-    - This directory contains the executable file for your game and is not part of the UE4SS directory structure.
+    - This directory contains the real executable file for your game and is not part of the UE4SS directory structure.
     - This directory also contains `UE4SS.log` and `UE4SS-ObjectDump.txt`.
     - Example of a `game executable directory`: `D:\Games\Epic Games\SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\`
 
