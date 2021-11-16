@@ -20,13 +20,13 @@
 ## Credits
 
 - **CheatingMuppet** `Creator`
-- **CasualGamer** - <https://www.youtube.com/channel/UC1a4ido01YxP_3-nspjmqCw>
+- **CasualGamer**
   - Injector code & aob scanner is heavily based on his work, 90% of that code is his.
 - **SunBeam**
   - Extra signature for function 'GetFullName' for UE4.25.
   - Regex to check for proper signature format when loaded from ini.
   - Lots and lots of work on signatures
-- **tomsa** @ CasualCommunity discord
+- **tomsa**
   - const char* to vector\<int> converter
     - tomsa: Idea & most of the code
     - CheatingMuppet: Nibblet support
@@ -40,6 +40,6 @@
 - GreenHouse
 - Otis_Inf
 - SunBeam
-- Motoson @ StartYourSystems discord
-- hooter @ StartYourSystems discord
+- Motoson
+- hooter
 - Synopis
