@@ -45,7 +45,7 @@ Now all you need to do is start your game and point your injector of choice to `
 
 ### Method #2
 
-⚠ Using method #2 will mean that the `root directory` and `working executable directory` are treated as one single directory that happens to also be the same directory as your `game directory`.
+⚠ Using method #2 will mean that the `root directory` and `working executable directory` are treated as one single directory that happens to also be the same directory as your game directory.
 
 If you don't want to bother with a global installation directory then the most straight forward way to install UE4SS is to just drop all the necessary files in `<game executable directory>/<game_name>/Binaries/Win64/`.
 
