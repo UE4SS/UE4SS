@@ -1,5 +1,4 @@
-⚠ This guide is for UE4SS 1.1+, it is not compatible with UE4SS 1.0.  
-You will have to wait until 1.1 comes out to make use of this guide.
+⚠ This guide is for UE4SS 1.1+, it is not compatible with UE4SS 1.0
 
 # Full installation guide
 
@@ -17,16 +16,35 @@ There are four concepts you need to know about.
     - Example of a `game directory`: `D:\Games\Epic Games\SatisfactoryEarlyAccess\`
 4. The `game executable directory`.
     - This directory contains the real executable file for your game and is not part of the UE4SS directory structure.
-    - This directory also contains `UE4SS.log` and `UE4SS-ObjectDump.txt`.
     - Example of a `game executable directory`: `D:\Games\Epic Games\SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\`
 
 ## Choosing an installation directory
 
 You can install UE4SS in a couple of different ways.
 
-### Method #1
+### Method #1 (Preferred)
 
-The preferred way to install UE4SS is to extract the zip file in any directory _outside_ the `game directory`, this is what's known as the `root directory`.  
+⚠ Using method #1 will mean that the `root directory` and `working directory` are treated as one single directory that happens to also be the same directory as your `game working directory`.
+
+The preferred and most straightforward way to install UE4SS is to choose the 'ue4ss_xinput' download and then just drag & drop all the necessary files in `<game executable directory>`.
+
+Now all you need to do is start your game and UE4SS will automatically be injected.
+
+---
+
+### Method #2
+
+⚠ Using method #2 will mean that the `root directory` and `working directory` are treated as one single directory that happens to also be the same directory as your `game working directory`.
+
+Same as using method #1 except you choose the "ue4ss_standard" download and any instances of `xinput1_3.dll` becomes `ue4ss.dll`.
+
+This method requires that you manually inject `ue4ss.dll` after the game is launched.
+
+---
+
+### Method #3
+
+This method is a way to install UE4SS in one place for all your games. Simply extract the zip file in any directory _outside_ the `game directory`, this is what's known as the `root directory`.  
 You will then create a folder inside with the name of your game and drag `UE4SS-settings.ini` in to it, this is what's known as the `working directory`.
 
 If the path to your game executable is
@@ -41,8 +59,8 @@ This directory will be automatically found and used by UE4SS if it exists.
 As of UE4SS 1.1, the following files & folders exist inside the `working directory`:
 
 - Mods
-  - Mod folders
-  - mods.txt
+    - Mod folders
+    - mods.txt
 - UE4SS-settings.ini
 - UE4SS.log
 - UE4SS-ObjectDump.txt
@@ -51,19 +69,7 @@ Now all you need to do is start your game and point your injector of choice to `
 
 ---
 
-### Method #2
-
-⚠ Using method #2 will mean that the `root directory` and `working directory` are treated as one single directory that happens to also be the same directory as your `game working directory`.
-
-If you don't want to bother with a global installation directory then the most straight forward way to install UE4SS is to just drop all the necessary files in `<game executable directory>`.
-
-Now all you need to do is start your game and point your injector of choice to `<game executable directory>/ue4ss.dll`.
-
----
-
 ## Last but not least...
 
-The preferred way to install UE4SS is method #1 because it will allow you to collect all your UE4SS related stuff in the same place for easy access and it will also allow you to use the same dll for all games.
-
-If you keep a copy of `UE4SS-settings.ini` inside the `root directory` then this file will act as a default for all the games that don't have a `working directory` as long as you still point your injector to the `root directory`.  
-This way you can use method #2 for most of your games and at the same time you can use method #1 for other games if method #2 is problematic for you.
+If you use method #3, if you keep a copy of `UE4SS-settings.ini` inside the `root directory` then this file will act as a default for all the games that don't have a `working directory` as long as you still point your injector to the `root directory`.  
+This way you can use method #3 for most of your games and at the same time you can use method #2 for other games if method #3 is problematic for you.
