@@ -9,6 +9,8 @@
 ## Credits
 
 - **CheatingMuppet** `Creator`
+- **Archengius**
+  - UHT compatible header generator
 - **CasualGamer**
   - Injector code & aob scanner is heavily based on his work, 90% of that code is his.
 - **SunBeam**
