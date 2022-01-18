@@ -9,7 +9,7 @@ You may need to update AOBs on your own, and there's a guide for that below.
 ## Links
 
 [Full installation guide](https://github.com/UE4SS/UE4SS/blob/master/Guides/FullInstallationGuide.md)  
-[Fixing compatibility problems](https://github.com/UE4SS/UE4SS/blob/master/Guides/FixingBrokenAOBs.md)  
+[Updating AOBs](https://github.com/UE4SS/UE4SS/blob/master/Guides/FixingBrokenAOBs.md)  
 [Generating UHT compatible headers](https://github.com/UE4SS/UE4SS/wiki/Generating-UHT-compatible-headers)
 
 ## Credits
