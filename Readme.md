@@ -1,6 +1,7 @@
-# Unreal Engine 4 Scripting System
+# Unreal Engine 4/5 Scripting System
+### This tool has entered "Maintenance" mode. No more features will be added for the foreseeable future, but it will hopefully still be updated whenever new UE versions are released.
 
-## Targeting UE Versions: From 4.12 To 4.27
+## Targeting UE Versions: From 4.12 To 5.0
 
 The goal of UE4SS is not to be a plug-n-play solution that always works with every game.  
 The goal is to have an underlying system that works for most games.  
