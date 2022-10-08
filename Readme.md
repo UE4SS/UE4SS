@@ -18,6 +18,7 @@ You may need to update AOBs on your own, and there's a guide for that below.
 - **CheatingMuppet** `Creator`
 - **Archengius**
   - UHT compatible header generator
+- **Narknon**
 - **CasualGamer**
   - Injector code & aob scanner is heavily based on his work, 90% of that code is his.
 - **SunBeam**
