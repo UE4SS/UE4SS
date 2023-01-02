@@ -1,3 +1,5 @@
+# This repo has been archived. The new repo can be found here: https://github.com/UE4SS-RE/RE-UE4SS
+
 # Unreal Engine 4/5 Scripting System
 ### This tool has entered "Maintenance" mode. No more features will be added for the foreseeable future, but it will hopefully still be updated whenever new UE versions are released.
 
